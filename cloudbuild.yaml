@@ -1,0 +1,6 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+_DOCKER_BUILDX_PLATFORMS: 'linux/arm64'
+  args: [ 'build', '-t', 'asia-east1-docker.pkg.dev/$PROJECT_ID/quickstart-docker-repo/quickstart-image:tag1', '.' ]
+images:
+- 'asia-east1-docker.pkg.dev/$PROJECT_ID/quickstart-docker-repo/quickstart-image:tag1'
