@@ -8,7 +8,10 @@
     "dev:start-server": "wasmedge --dir .:. ./wasmedge_quickjs.so ./wasmedge-server-build/index.js",
     "dev:build-server-express": "NODE_ENV=development webpack --config webpack.express-server.config.js --mode=development",
     "dev:start-server-express": "nodemon ./express-build/index.js",
-    "dev": "npm-run-all --parallel build dev:*"
+    "dev": "npm-run-all --parallel build dev:*",
+    "start:we-server": "npm run build && npm run dev:build-server && npm run dev:start-server",
+    "start:express-server": "npm run build && npm run dev:build-server-express && npm run dev:start-server-express"
+
   },
   "eslintConfig": {
     "extends": [

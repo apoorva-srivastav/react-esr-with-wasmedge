@@ -33,13 +33,9 @@ Start with ,
 ``npm i``
 
 To run the app on local using wasmedge, do
-``npm run build``
-``npm run dev:build-server``
-``npm run dev:start-server``
+``start:we-server``
 And your app will be up and running on your http://localhost:8004
 
 To run the nodejs implemenation, do
-``npm run build``
-`npm run dev:build-server-express`
-`npm run dev:start-server-express`
+``start:express-server``
 And your app will be up and running on your http://localhost:3006
