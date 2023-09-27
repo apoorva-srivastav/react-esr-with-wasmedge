@@ -2,7 +2,7 @@
 
 This repository has an implementation of using wasmedge and quickjs runtime for rendering react app on server side.
 
-Check out the [Wasmedge ](https://shoppe-image-wasmedge-b4xntowapq-de.a.run.app) and the traditional [NodeJS](https://shoppe-image-nodejs-b4xntowapq-de.a.run.app/) apps running on google cloud (edge) using docker images.
+Check out the [Wasmedge ](https://quickstart-image-wasi-wasmedge-b4xntowapq-de.a.run.app) and the traditional [NodeJS](https://shoppe-image-nodejs-b4xntowapq-de.a.run.app/) apps running on google cloud (edge) using docker images.
 
 ## Resources
 
