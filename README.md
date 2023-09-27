@@ -7,13 +7,19 @@ Check out the [Wasmedge ](https://shoppe-image-wasmedge-b4xntowapq-de.a.run.app)
 ## Resources
 
 WebAssembly vs JS: https://snipcart.com/blog/webassembly-vs-javascript
+
 What is wasedge runtime: https://wasmedge.org/docs/category/what-is-wasmedge
+
 Get started with Wasmedge for JS : https://wasmedge.org/docs/develop/javascript/intro
-															  https://www.secondstate.io/articles/wasmedge-joins-cncf/
+			https://www.secondstate.io/articles/wasmedge-joins-cncf/
+
 Wasmedge with docker: https://wasmedge.org/docs/develop/deploy/using-wasmedge-in-docker#run-a-lightweight-nodejs-server
+
 What is WASI: https://hacks.mozilla.org/2019/03/standardizing-wasi-a-webassembly-system-interface/
+
 Fastly: https://blog.suborbital.dev/foundations-wasm-in-golang-is-fantastic
 			https://www.fastly.com/blog/run-your-next-js-app-on-fastly
+   
 WasmFiddle: https://wasdk.github.io/WasmFiddle/
 
 ## App Structure
@@ -26,10 +32,13 @@ There is a Dockerfile for creating images for both the implemenations which can 
 ## Getting Started
 
 Install wasmedge : https://wasmedge.org/docs/start/install#install
+
 Install rust
-Clone Wasmedge-quickjs: https://wasmedge.org/docs/develop/javascript/hello_world and copy the modules folder in the working repository
+
+Clone Wasmedge-quickjs: https://wasmedge.org/docs/develop/javascript/hello_world  and copy the modules folder in the working repository
 
 Start with ,
+
 ``npm i``
 
 For AOT compilation for increased speed,
