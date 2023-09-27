@@ -32,9 +32,13 @@ Clone Wasmedge-quickjs: https://wasmedge.org/docs/develop/javascript/hello_world
 Start with ,
 ``npm i``
 
+For AOT compilation for increased speed,
+`wasmedge compile wasmedge_quickjs.wasm wasmedge_quickjs.wasm`
+
 To run the app on local using wasmedge, do
 ``start:we-server``
 And your app will be up and running on your http://localhost:8004
+
 
 To run the nodejs implemenation, do
 ``start:express-server``

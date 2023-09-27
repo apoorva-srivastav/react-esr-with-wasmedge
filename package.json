@@ -5,7 +5,7 @@
   "scripts": {
     "build": "react-scripts build",
     "dev:build-server": "NODE_ENV=development webpack --config webpack.server.js --mode=development",
-    "dev:start-server": "wasmedge --dir .:. ./wasmedge_quickjs.so ./wasmedge-server-build/index.js",
+    "dev:start-server": "wasmedge --dir .:. ./wasmedge_quickjs.wasm ./wasmedge-server-build/index.js",
     "dev:build-server-express": "NODE_ENV=development webpack --config webpack.express-server.config.js --mode=development",
     "dev:start-server-express": "nodemon ./express-build/index.js",
     "dev": "npm-run-all --parallel build dev:*",
